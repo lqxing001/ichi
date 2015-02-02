@@ -24,7 +24,7 @@
             </section>
             <hr>
             <footer class="post-footer">
-                <div id="uyan_frame"></div>
+                <div class="ds-thread" data-thread-key="{{slug}}" data-title="{{{title}}}" data-url="{{url absolute="true"}}"></div>
 <!--
                 <section class="share">
                     <h4>Liked this post ? Share it.</h4>
@@ -83,4 +83,15 @@
     -->
 
 </main>
-<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2006826"></script>
+
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"dev2patrick"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
